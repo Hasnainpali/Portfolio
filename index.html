@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body class="bg-color">
+    <!-- Navbar Section-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <div>
+          <h1 class="navbar-brand">Portfolio</h1>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" >About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service"> Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skill"> Skills </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project"> Project </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- hero Section-->
+    <div
+      class="d-sm-flex align-items-center justify-content-between w-100 pt-5"
+      id="Home"
+    >
+      <div class="col-md-4 mb-4 mb-sm-0 headline">
+        <span class="text-uppercase" style="color: #ffbd39;">Hello!</span>
+        <h1 class="display-5 my-3 font-weight-bold text-white">
+          I'm <span class="txt-type" data-wait="3000" data-words='["Hasnain Iqbal"]'  style="color: #ffbd39;"></span> </h1>
+        <script src="/main.js"></script>
+             <h2 class="mb-4"> <span  style="color: white;">
+            As a Front-End Developer</span
+          ></h2>
+        
+        <a
+          href="#"
+          class="btn px-5 py-3 text-white mt-3 mt-sm-0"
+          style="border-radius: 30px; background-color: #ffbd39;"
+          >HIRE ME</a
+        >
+        <a
+          href="#"
+          class="btn btn-white btn-outline-white text-white py-3 px-5 mt-3 mt-sm-0 "
+          style="border-radius: 30px; border: 1px solid white;"
+          >My works</a
+        >
+      </div>
+      <!-- in mobile remove the clippath -->
+      <div
+        class="col-md-8 h-100 "
+        style="
+          min-height: 350px;
+          background-image: url(/images/bg_1.png);
+          background-position: center;
+          background-size: contain;
+          background-repeat: no-repeat;
+        "
+      ></div>
+    </div>
+    <!-- about Section-->
+    <h1 class="text-white text-center pt-5" id="about">About Me</h1>
+    <div class="about ">
+      <div class="about-text col-md-6 col-sm-12 ">
+        <p class="pb-5">
+          Hello, I'm Hasnain! 👋 I am a dedicated web developer with 6 months of
+          hands-on experience, and my journey in this field continues to grow.
+          My expertise lies in HTML, CSS, JavaScript, Tailwind CSS, and React. I
+          am driven by a passion for creating compelling and functional
+          websites.
+        </p>
+        <div class="">
+          <a href="/images/Hasnain%20Iqbal.pdf"
+            class="btn py-3 px-3"
+            download="resume"
+            target="_blank"
+            style="background-color: #ffbd39; border-radius: 30px;"
+          >
+            Download CV
+          </a>
+        </div>
+      </div>
+      <div class="about-img">
+        <img
+          src="https://mabdullah-65ae7.web.app/static/media/blueTheme-boy.b2f186cb.svg"
+          alt=""
+          width="250px"
+        />
+      </div>
+    </div>
+    <!-- Services Section-->
+    <h1 class="text-white text-center pt-5" id="service">Service</h1>
+    <div class="services">
+      <div class="card" style="width: 20rem;">
+        <img
+          src="/images/web-design.png"
+          class="card-img-top"
+          alt="web-design"
+        />
+        <div class="card-body">
+          <h5 class="card-title">UI/UX Design</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img
+          src="/images/developer.png"
+          class="card-img-top"
+          alt="Development"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Website Development</h5>
+        </div>
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="/images/coding.png" class="card-img-top" alt="programming" />
+        <div class="card-body">
+          <h5 class="card-title">Programming</h5>
+        </div>
+      </div>
+    </div>
+    <!-- Skill Section-->
+    <h1 class="text-white text-center pt-5" id="skill">Skill</h1>
+    <div class="skillsContainer">
+      <div class="skill--scroll">
+        <div
+          class="marquee-container"
+          style="--pause-on-hover: paused; --pause-on-click: paused;"
+        >
+          <div
+            class="marquee"
+            style="
+              --play: running;
+              --direction: normal;
+              --duration: 30.340625s;
+              --delay: 0s;
+              --iteration-count: infinite;
+            "
+          >
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/HTML.png" alt="HTML" />
+              <h3 style="color: rgb(234, 234, 234);">HTML</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/CSS.png" alt="CSS" />
+              <h3 style="color: rgb(234, 234, 234);">CSS</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/bootstrap (1).png" alt="BOOTSTRAP" />
+              <h3 style="color: rgb(234, 234, 234);">bootstrap</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/Js.png" alt="JavaScript" />
+              <h3 style="color: rgb(234, 234, 234);">JavaScript</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/Reactjs.png" alt="React" />
+              <h3 style="color: rgb(234, 234, 234);">React</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/TailwindCSS.png" alt="Tailwind" />
+              <h3 style="color: rgb(234, 234, 234);">Tailwind</h3>
+            </div>
+
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/HTML.png" alt="HTML" />
+              <h3 style="color: rgb(234, 234, 234);">HTML</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/CSS.png" alt="CSS" />
+              <h3 style="color: rgb(234, 234, 234);">CSS</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/bootstrap (1).png" alt="BOOTSTRAP" />
+              <h3 style="color: rgb(234, 234, 234);">bootstrap</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/Js.png" alt="JavaScript" />
+              <h3 style="color: rgb(234, 234, 234);">JavaScript</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/Reactjs.png" alt="React" />
+              <h3 style="color: rgb(234, 234, 234);">React</h3>
+            </div>
+            <div
+              class="skill--box"
+              style="
+                background-color: rgb(33, 33, 33);
+                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
+              "
+            >
+              <img src="/images/TailwindCSS.png" alt="Tailwind" />
+              <h3 style="color: rgb(234, 234, 234);">Tailwind</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Project Section -->
+    <h1 class="text-white text-center pt-5" id="project">Project</h1>
+    <div class="lightbox pt-5">
+      <div class="multi-carousel">
+        <div class="multi-carousel-inner">
+          <div class="multi-carousel-item">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.webp"
+              data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/2.webp"
+              alt="Winter Landscape"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contact Section -->
+    <h1 class="text-white text-center pt-5" id="contact">Contact</h1>
+    <section class="contact_us">
+      <div class="">
+        <div class="contact_inner">
+          <div class="contact_field">
+            <h3>Contatc Us</h3>
+            <input
+              type="text"
+              class="form-control form-group"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control form-group"
+              placeholder="Email"
+            />
+            <textarea
+              class="form-control form-group"
+              placeholder=" Type your Message"
+            ></textarea>
+            <button class="contact_form_submit">Send</button>
+          </div>
+
+          <div class="contact_info_sec">
+            <h4>Contact Info</h4>
+            <div class="d-flex w-100 info_single align-items-center mb-3">
+              <img class="icon" src="/images/telephone.svg" />
+              <a href="tel://923332830600">+92 3332830600</a>
+            </div>
+            <div class="d-flex w-100 info_single align-items-center mb-3">
+              <img class="icon" src="/images/envelope.svg" />
+              <a href="mailto:hasnainpali321@gmail.com"
+                >hasnainpali321@gmail.com</a
+              >
+            </div>
+            <div class="d-flex w-100 info_single align-items-center mb-3">
+              <img class="icon" src="/images/house-add.svg" />
+              <span>Nishter Road Karachi,Pakistan</span>
+            </div>
+            <div class="soical-icon">
+              <ul class="">
+                <li>
+                  <a href="#"><img src="/images/facebook.svg" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/images/linkedin.svg" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/images/github.svg" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="/images/instagram.svg" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!--footer Section -->
+     <div class="footer pt-5">
+       <p>&copy;CopyRight By Hasnain Iqbal</p>
+     </div>
+    
+  </body>
+</html>
