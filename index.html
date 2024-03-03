@@ -27,7 +27,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <div>
-          <h1 class="navbar-brand">Portfolio</h1>
+          <h1 class="navbar-brand fs-2">Portfolio</h1>
         </div>
         <button
           class="navbar-toggler"
@@ -66,7 +66,7 @@
     </nav>
     <!-- hero Section-->
     <div
-      class="d-sm-flex align-items-center justify-content-between w-100 pt-5"
+      class="d-sm-flex align-items-center justify-content-center w-100 pt-5"
       id="Home"
     >
       <div class="col-md-6 mb-4 mb-sm-0 headline">
@@ -92,16 +92,9 @@
         >
       </div>
       <!-- in mobile remove the clippath -->
-      <div
-        class="col-md-8 h-100 "
-        style="
-          min-height: 350px;
-          background-image: url(/images/bg_1.png);
-          background-position: center;
-          background-size: contain;
-          background-repeat: no-repeat;
-        "
-      ></div>
+      <div class="col-md-6 hero ">
+        <img src="/images/bg_1.png" alt="">
+      </div>
     </div>
     <!-- about Section-->
     <h1 class="text-white text-center pt-5" id="about">About Me</h1>
@@ -114,7 +107,7 @@
           am driven by a passion for creating compelling and functional
           websites.
         </p>
-        <div class="">
+        <div class="btn-download">
           <a href="/images/Hasnain%20Iqbal.pdf"
             class="btn py-3 px-3"
             download="resume"
@@ -309,25 +302,39 @@
 
     <!--Project Section -->
     <h1 class="text-white text-center pt-5" id="project">Project</h1>
-    <div class="lightbox pt-5">
-      <div class="multi-carousel">
-        <div class="multi-carousel-inner">
-          <div class="multi-carousel-item">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.webp"
-              data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/2.webp"
-              alt="Winter Landscape"
-              width="100%"
-            />
-          </div>
+    <div class="project-list pt-5">
+        <div class="project">
+          <img src="https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+        
+        <div class="project-text">
+           <p class="text-white pt-5 lh-base">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime cupiditate assumenda voluptas beatae repellat illum velit recusandae! Quaerat repellat sunt perspiciatis! Doloribus alias aliquam deleniti amet ducimus soluta rem!
+           </p>
         </div>
       </div>
+
+      <div class="project">
+        <img src="https://images.pexels.com/photos/968639/pexels-photo-968639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+      <div class="project-text">
+         <p class="text-white pt-5 lh-base">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime cupiditate assumenda voluptas beatae repellat illum velit recusandae! Quaerat repellat sunt perspiciatis! Doloribus alias aliquam deleniti amet ducimus soluta rem!
+         </p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+    
+    <div class="project-text">
+       <p class="text-white pt-5 lh-base">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime cupiditate assumenda voluptas beatae repellat illum velit recusandae! Quaerat repellat sunt perspiciatis! Doloribus alias aliquam deleniti amet ducimus soluta rem!
+       </p>
+    </div>
+  </div>
     </div>
 
     <!--Contact Section -->
     <h1 class="text-white text-center pt-5" id="contact">Contact</h1>
     <section class="contact_us">
-      <div class="">
         <div class="contact_inner pt-5">
           <div class="contact_field">
             <h3>Contatc Us</h3>
@@ -351,38 +358,37 @@
           <div class="contact_info_sec">
             <h4>Contact Info</h4>
             <div class="d-flex w-100 info_single align-items-center mb-3">
-              <img class="icon" src="/images/telephone.svg" />
+              <i class="bi bi-telephone icon"></i>
               <a href="tel://923332830600">+92 3332830600</a>
             </div>
             <div class="d-flex w-100 info_single align-items-center mb-3">
-              <img class="icon" src="/images/envelope.svg" />
+              <i class="bi bi-envelope icon"></i>
               <a href="mailto:hasnainpali321@gmail.com"
                 >hasnainpali321@gmail.com</a
               >
             </div>
             <div class="d-flex w-100 info_single align-items-center mb-3">
-              <img class="icon" src="/images/geo-alt-fill.svg" />
-              <span>Nishter Road Karachi,Pakistan</span>
+              <i class="bi bi-geo-alt-fill icon"></i>
+              <span>Nishter Road Karachi,PK</span>
             </div>
             <div class="soical-icon">
               <ul class="">
                 <li>
-                  <a href="#"><img src="/images/facebook.svg" /></a>
+                  <a href="#"><i class="bi bi-facebook icon"></i></a>
                 </li>
                 <li>
-                  <a href="#"><img src="/images/linkedin.svg" /></a>
+                  <a href="#"><i class="bi bi-linkedin icon"></i></a>
                 </li>
                 <li>
-                  <a href="https://github.com/Hasnainpali?tab=repositories"><img src="/images/github.svg" /></a>
+                  <a href="https://github.com/Hasnainpali?tab=repositories"><i class="bi bi-github icon"></i></a>
                 </li>
                 <li>
-                  <a href="#"><img src="/images/instagram.svg" /></a>
+                  <a href="#"><i class="bi bi-instagram icon"></i></a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
     </section>
      <!--footer Section -->
      <div class="footer pt-5">
