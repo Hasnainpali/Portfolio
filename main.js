@@ -66,3 +66,22 @@ class TypeWriter {
     // Init TypeWriter
     new TypeWriter(txtElement, words, wait);
   }
+
+document.addEventListener('DOMContentLoaded',function(){
+   let toggleButton = document.getElementById('toggleButton');
+   let menu = document.getElementById('navbarSupportedContent')
+
+   toggleButton.addEventListener('click', function(){
+     menu.classList.toggle('show')
+   })
+
+    let navLink = document.querySelectorAll('.navbar-nav a.nav-link');
+
+     navLink.forEach(function(link){
+      link.addEventListener('click', function(){
+        if(menu.classList.toggle('show')){
+          menu.classList.remove('show')
+        }
+      });
+     });
+});
