@@ -15,12 +15,14 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+   
     <title>Portfolio</title>
   </head>
   <body class="bg-color">
@@ -152,22 +154,10 @@
     </div>
     <!-- Skill Section-->
     <h1 class="text-white text-center pt-5" id="skill">Skill</h1>
-    <div class="skillsContainer">
-      <div class="skill--scroll">
-        <div
-          class="marquee-container"
-          style="--pause-on-hover: paused; --pause-on-click: paused;"
-        >
-          <div
-            class="marquee"
-            style="
-              --play: running;
-              --direction: normal;
-              --duration: 30.340625s;
-              --delay: 0s;
-              --iteration-count: infinite;
-            "
-          >
+    <div class="container-fluid py-5">
+      <div class="row px-xl-5">
+        <div class="col">
+          <div class="owl-carousel vendor-carousel">
             <div
               class="skill--box"
               style="
@@ -229,66 +219,7 @@
               <h3 style="color: rgb(234, 234, 234);">Tailwind</h3>
             </div>
 
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/HTML.png" alt="HTML" />
-              <h3 style="color: rgb(234, 234, 234);">HTML</h3>
-            </div>
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/CSS.png" alt="CSS" />
-              <h3 style="color: rgb(234, 234, 234);">CSS</h3>
-            </div>
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/bootstrap (1).png" alt="BOOTSTRAP" />
-              <h3 style="color: rgb(234, 234, 234);">bootstrap</h3>
-            </div>
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/Js.png" alt="JavaScript" />
-              <h3 style="color: rgb(234, 234, 234);">JavaScript</h3>
-            </div>
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/Reactjs.png" alt="React" />
-              <h3 style="color: rgb(234, 234, 234);">React</h3>
-            </div>
-            <div
-              class="skill--box"
-              style="
-                background-color: rgb(33, 33, 33);
-                box-shadow: rgba(84, 95, 196, 0.3) 0px 0px 30px;
-              "
-            >
-              <img src="/images/TailwindCSS.png" alt="Tailwind" />
-              <h3 style="color: rgb(234, 234, 234);">Tailwind</h3>
-            </div>
+            
           </div>
         </div>
       </div>
@@ -390,5 +321,11 @@
      </div>
     
   </body>
-  <script src="/main.js"></script>
+  <!-- Script Loading Section -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="/main.js"></script>
 </html>
+
+</html>
+

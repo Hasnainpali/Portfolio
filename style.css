@@ -25,10 +25,18 @@ body {
   box-sizing: border-box;
 } 
 
-@media screen and (max-width: 650px){
+@media only screen and (max-width: 998px){
   .headline {
     background-position: center;
     background-size: cover;
+    padding: 0px 12px;
+  } 
+ 
+}
+@media only screen and (min-width: 1024px){
+  .headline {
+ background-position: right;
+    background-size: contain;
     padding: 0px 12px;
   } 
  
@@ -163,62 +171,7 @@ nav ul li a:hover::after {
     }
   }
   
-.skillsContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 3.5rem;
-    padding: 0 2rem;
-}
-@media screen and (max-width: 992px)
-{
-    .skillsContainer {
-        padding: 1rem;
-        margin: 1rem 0;
-    }
-}
-@media screen and (max-width: 800px)
-{
-    .skills, .skillsContainer {
-        padding: 0.5rem;
-    }
-}
-.skill--scroll {
-    width: 100%;
-    margin: 0 2rem;
-}
-@media screen and (max-width: 800px)
-{
-    .skill--scroll {
-        width: 100%;
-        margin: 0;
-    }
-}
-.marquee-container {
-    overflow-x: hidden !important;
-    display: flex !important;
-    flex-direction: row !important;
-    position: relative;
-    width: 100%;
-}
-.marquee {
-    flex: 0 0 auto;
-    min-width: 100%;
-    z-index: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    animation: scroll var(--duration) linear infinite;
-    animation-play-state: var(--play);
-    animation-delay: var(--delay);
-    animation-direction: var(--direction);
-    white-space: nowrap; /* Ensure content doesn't wrap to the next line */
-    overflow: hidden; /* Hide content that overflows the container */
-  }
-.marquee {
-    padding: 3rem 0;
-}
+
 .skill--box {
     background: #fafafa;
     box-shadow: 0 10px 20px rgba(0,0,0,.12);
