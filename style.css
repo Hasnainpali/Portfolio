@@ -9,22 +9,21 @@
 body {
   font-family: "Poppins", sans-serif !important;
 }
-
-.headline {
-  background-image: url(/images/bg_1.png);
-  height: 80vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+.buttons{
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  gap: 10px;
   justify-content: center;
-  padding: 0px 24px;
-  box-sizing: border-box;
-} 
+  align-items: center;
+}
+.profile-img{
 
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #ffc107;
+
+}
 @media only screen and (max-width: 998px){
   .headline {
     background-position: center;
@@ -186,6 +185,10 @@ nav ul li a:hover::after {
     padding: 2rem 1rem;
     transition: .3s ease-in-out;
 }
+
+.owl-carousel .owl-item img{
+  width: 50% !important;
+}
 @media screen and (max-width: 600px)
 {
     .skill--box {
@@ -223,6 +226,27 @@ nav ul li a:hover::after {
   border-radius: 10px;
   transition: transform 0.5s;
 }
+.project-img{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 300px;
+  height: 100%;
+}
+.project-texts{
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0px;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ffbd39);
+  opacity: 0;
+  transition: opacity 0.5s;
+  padding: 20px;
+}
+
 .project-text{
   width: 350px;
   height: 100%;
@@ -239,6 +263,10 @@ nav ul li a:hover::after {
 }
 
 .project-text:hover  {
+  opacity: 6;
+ 
+}
+.project-texts:hover  {
   opacity: 6;
  
 }

@@ -28,7 +28,7 @@
   <body class="bg-color">
     <!-- Navbar Section-->
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid">
+      <div class="container-fluid pt-2">
         <div>
           <h1 class="navbar-brand fs-2">Portfolio</h1>
         </div>
@@ -66,31 +66,40 @@
     </nav>
     <!-- hero Section-->
     <div
-      class="d-sm-flex align-items-center justify-content-center w-100 h-100 pt-5"
+      class="d-sm-flex align-items-center h-100 p-5 row"
       id="Home"
     >
-      <div class="col-md-12 mb-4 mb-sm-0 headline">
-        <span class="text-uppercase" style="color: #ffbd39;">Hello!</span>
-        <h1 class="display-5 my-3 font-weight-bold text-white">
-          I'm <span class="txt-type" data-wait="3000" data-words='["Hasnain Iqbal"]'  style="color: #ffbd39;"></span> </h1>
-             <h2 class="mb-4"> <span  style="color: white;">
-            As a Front-End Developer</span
-          ></h2>
-         <div class="buttons">
-          <a
-          href="#"
-          class="btn px-5 py-3 text-white mt-3 mt-sm-0"
-          style="border-radius: 30px; background-color: #ffbd39;"
-          >HIRE ME</a
-        >
-        <a
-          href="#"
-          class="btn btn-white btn-outline-white text-white py-3 px-5 mt-3 mt-sm-0 "
-          style="border-radius: 30px; border: 1px solid white;"
-          >My works</a
-        >
-         </div>
-      </div>
+     
+        <div class="col-md-6 col-sm-12 mb-4 mb-sm-0">
+          <span class="text-uppercase" style="color: #ffbd39;">Hello!</span>
+          <h1 class="display-5 my-3 font-weight-bold text-white">
+            I'm <span class="txt-type" data-wait="3000" data-words='["Hasnain Iqbal"]'  style="color: #ffbd39;"></span> </h1>
+               <h2 class="mb-4"> <span  style="color: white;">
+              As a Front-End Developer</span
+            ></h2>
+           <div class="d-flex justify-content-center align-items-center  d-md-block">
+           
+              <a href="/download/HasnainCV.pdf"
+                class="btn py-3 px-3"
+                download="resume"
+                target="_blank"
+                style="background-color: #ffbd39; border-radius: 30px;"
+              >
+                Download CV
+              </a>
+              <a href="#contact"
+                class="btn py-3 px-5"
+                target="_blank"
+                style="background-color: transparen; border-radius: 30px; color: #fff; border: 1px solid #fff;"
+              >
+                Contact 
+              </a>
+
+           </div>
+        </div>
+        <div class="col-md-6 col-sm-12 d-flex justify-content-center my-4 my-md-0 ">
+          <img class="profile-img" src="/images/image.png" alt="profile-Picture">
+        </div>
     </div>
     <!-- about Section-->
     <h1 class="text-white text-center pt-5" id="about">About Me</h1>
@@ -103,8 +112,8 @@
           am driven by a passion for creating compelling and functional
           websites.
         </p>
-        <div class="btn-download">
-          <a href="/download/Hasnain%20Iqbal.pdf"
+        <!-- <div class="btn-download">
+          <a href="/download/HasnainCV.pdf"
             class="btn py-3 px-3"
             download="resume"
             target="_blank"
@@ -112,7 +121,7 @@
           >
             Download CV
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="about-img">
         <img
@@ -238,15 +247,17 @@
               </p>
             </div>
         </div>
-        <!-- <div class="project">
-          <img src="https://images.pexels.com/photos/968639/pexels-photo-968639.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        <div class="project-text">
-            <p class="text-white pt-5 lh-base">
-               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae maxime cupiditate assumenda  voluptas beatae repellat illum velit recusandae! Quaerat repellat sunt perspiciatis! Doloribus aliasaliquam deleniti amet ducimus soluta rem!
+        <div class="project">
+          <img class="project-img" src="/images//online-shop.png" alt="e-commerce icon">
+        <div class="project-texts">
+          <span class="text-center text-white h4 "> E-commerce Website </span>
+            <p class="text-white pt-3 ">
+              I have developed a personal e-commerce website using a combination of modern web technologies. This project demonstrates my skills in front-end development and my ability to create responsive and user-friendly interfaces.
+              <a href="https://e-commerce-project-9lxa.vercel.app/" class="text-white fs-6 pb-4"> Visit Website</a>
             </p>
          </div>
         </div>
-        <div class="project">
+        <!-- <div class="project">
            <img src="https://images.pexels.com/photos/289927/pexels-photo-289927.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
          <div class="project-text">
               <p class="text-white pt-5 lh-base">
